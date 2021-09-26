@@ -1386,7 +1386,7 @@ Transform:
   m_GameObject: {fileID: 450532951}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.6, y: 0.6, z: 1}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_Children: []
   m_Father: {fileID: 1113449977}
   m_RootOrder: 0
@@ -1431,12 +1431,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: bb0d0a12b139e4a4b8645d801aa7b9c6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 19e5ba7d75c4f2e4e8d2151606339bf3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.41, y: 1.11}
+  m_Size: {x: 2.56, y: 2.56}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -4222,6 +4222,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1113449977}
+  - component: {fileID: 1113449978}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -4244,6 +4245,35 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1113449978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1113449976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0daf04634b0df4e6885595d099d5a405, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _undoCommandKey: 114
+  _changeShapeCommandKey: 113
+  _characterSprites:
+  - {fileID: 21300000, guid: 19e5ba7d75c4f2e4e8d2151606339bf3, type: 3}
+  - {fileID: 21300000, guid: 0f3ba1ed6373fec4bbd0490fb756f318, type: 3}
+  - {fileID: 21300000, guid: ad6931e623929ad47ab9daa61454e000, type: 3}
+  - {fileID: 21300000, guid: 6b6fd3f59ae45864286df43a2671b9f8, type: 3}
+  - {fileID: 21300000, guid: c5c867e9976dc5d4a8803e01578752f5, type: 3}
+  - {fileID: 21300000, guid: 85a96536cdeba7e46b4a254c6c705151, type: 3}
+  - {fileID: 21300000, guid: 5dec73e9ae51f4f449835068fa42ab0e, type: 3}
+  - {fileID: 21300000, guid: de328077ad8c9594c9ec3cf1023b25fe, type: 3}
+  - {fileID: 21300000, guid: 137c605350849a743b8a4644b7de27be, type: 3}
+  - {fileID: 21300000, guid: 515e1722bb0b86e4bb28c0aaade52e65, type: 3}
+  - {fileID: 21300000, guid: 974fd4633f76fe24b854d48b461656a1, type: 3}
+  - {fileID: 21300000, guid: 90bd95b9cd8e8f44ebb15453b5fa16cb, type: 3}
+  - {fileID: 21300000, guid: f050b492e03119344b04cf01a3486662, type: 3}
+  _spriteRenderer: {fileID: 450532953}
 --- !u!1001 &1147633129
 PrefabInstance:
   m_ObjectHideFlags: 0
