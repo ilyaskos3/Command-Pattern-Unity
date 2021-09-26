@@ -3,7 +3,6 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    [Header("Inputs")]
     [SerializeField] KeyCode _undoCommandKey = KeyCode.R;
     [SerializeField] KeyCode _changeShapeCommandKey = KeyCode.Q;
     [SerializeField] Sprite[] _characterSprites;
@@ -16,7 +15,6 @@ public class PlayerController : MonoBehaviour
     {
         DetectMovement();
         DetectShapeChange();
-
         DetectUndoInput();
     }
 
@@ -51,7 +49,6 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKeyDown(_undoCommandKey))
         {
-            // undo previous action
             _commandStack.UndoLastCommand();
         }
     }
